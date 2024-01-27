@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Storybook libraries",
+      "groupSlug": "sb",
+      "matchPackageNames": ["storybook", "@storybook-vue/nuxt", "@storybook/"]
+    }
+  ]
+}
