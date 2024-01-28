@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": false,
-  "extends": ["config:base"]
+  "extends": [
+    "config:base",
+    "disableDependencyDashboard",
+    ":semanticCommitTypeAll(chore)",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":timezone(Asia/Tokyo)",
+    ":prConcurrentLimit10"
+  ],
+  "labels": ["🤖 renovate"]
 }

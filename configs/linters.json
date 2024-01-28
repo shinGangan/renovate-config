@@ -1,26 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["packages:eslint", "packages:stylelint"],
   "packageRules": [
     {
-      "groupName": "ESLint libraries",
-      "groupSlug": "eslint",
-      "matchPackageNames": [
-        "eslint",
-        "@eslint/eslintrc",
-        "@eslint/js",
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser",
-        "globals"
-      ]
-    },
-    {
-      "groupName": "Prettier libraries",
-      "groupSlug": "prettier",
-      "matchPackageNames": [
-        "prettier",
-        "prettier-plugin-organize-imports",
-        "eslint-config-prettier"
-      ]
+      "groupName": "Linters",
+      "groupSlug": "linters",
+      "matchPackageNames": ["globals"],
+      "matchPackagePrefixes": ["@eslint/", "prettier"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
   ]
 }

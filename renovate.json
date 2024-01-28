@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>shinGangan/renovate-config/default.json",
+    "github>shinGangan/renovate-config/configs/linters.json",
+    "github>shinGangan/renovate-config/configs/sb.json"
+  ]
+}
