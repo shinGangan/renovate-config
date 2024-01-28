@@ -8,5 +8,6 @@
     ":timezone(Asia/Tokyo)",
     ":prConcurrentLimit10"
   ],
-  "labels": ["🤖 renovate"]
+  "labels": ["🤖 renovate"],
+  "enabledManagers": ["npm", "pnpm", "github-actions"]
 }
