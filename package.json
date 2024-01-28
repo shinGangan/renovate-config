@@ -9,7 +9,11 @@
     "url": "git+https://github.com/shinGangan/renovate-config.git"
   },
   "scripts": {
+    "validate": "renovate-config-validator default.json",
     "test": "npm run validate"
+  },
+  "devDependencies": {
+    "renovate": "latest"
   },
   "packageManager": "pnpm@8.14.0"
 }

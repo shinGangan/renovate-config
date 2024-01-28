@@ -6,8 +6,10 @@
     ":semanticCommitTypeAll(chore)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
-    ":prConcurrentLimit10"
+    ":prConcurrentLimit10",
+    "github>shinGangan/renovate-config/configs/linters.json",
+    "github>shinGangan/renovate-config/configs/sb.json"
   ],
   "labels": ["🤖 renovate"],
-  "enabledManagers": ["npm", "pnpm", "github-actions"]
+  "enabledManagers": ["npm", "github-actions"]
 }
