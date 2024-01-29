@@ -2,6 +2,8 @@
   "extends": ["packages:eslint", "packages:stylelint"],
   "packageRules": [
     {
+      "groupName": "Linters",
+      "groupSlug": "linters",
       "matchPackageNames": ["globals"],
       "matchPackagePrefixes": ["prettier"]
     }
