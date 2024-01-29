@@ -1,5 +1,5 @@
 {
-  "extends": ["configs/linters/base"],
+  "extends": ["github>shinGangan/renovate-config//configs/linters/base"],
   "packageRules": [
     {
       "groupName": "Linters(patch)",
