@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":disableDependencyDashboard",
     ":semanticCommitTypeAll(chore)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
-    ":prConcurrentLimit10",
-    "github>shinGangan/renovate-config//configs/linters",
-    "github>shinGangan/renovate-config//configs/sb"
+    ":prHourlyLimit0",
+    ":prConcurrentLimit10"
   ],
   "labels": ["🤖 renovate"],
   "enabledManagers": ["npm", "github-actions"]
