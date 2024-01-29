@@ -7,8 +7,8 @@
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
     ":prConcurrentLimit10",
-    "github>shinGangan/renovate-config:configs/linters",
-    "github>shinGangan/renovate-config:configs/sb"
+    "github>shinGangan/renovate-config//configs/linters",
+    "github>shinGangan/renovate-config//configs/sb"
   ],
   "labels": ["🤖 renovate"],
   "enabledManagers": ["npm", "github-actions"]
