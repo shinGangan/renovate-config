@@ -1,4 +1,4 @@
 {
   "extends": ["github>shinGangan/renovate-config"],
-  "reviewers": ["shinGangan"],
+  "reviewers": ["shinGangan"]
 }
