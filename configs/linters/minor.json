@@ -1,0 +1,11 @@
+{
+  "extends": ["configs/linters/base"],
+  "packageRules": [
+    {
+      "groupName": "Linters(minor)",
+      "groupSlug": "linters-minor",
+      "matchUpdateTypes": ["minor"],
+      "automerge": false
+    }
+  ]
+}
