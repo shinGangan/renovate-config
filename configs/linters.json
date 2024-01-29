@@ -1,12 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["packages:eslint", "packages:stylelint"],
   "packageRules": [
     {
+      "extends": ["packages:eslint", "packages:stylelint"],
       "groupName": "Linters",
       "groupSlug": "linters",
       "matchPackageNames": ["globals"],
-      "matchPackagePrefixes": ["@eslint/", "prettier"],
+      "matchPackagePrefixes": ["prettier"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"]
     }
   ]
