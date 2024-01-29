@@ -10,7 +10,7 @@
   },
   "scripts": {
     "rcv": "renovate-config-validator",
-    "validate": "run-s -c valid:*",
+    "validate": "run-s -c validate:*",
     "validate:default": "npm run rcv default.json",
     "validate:configs": "npm run rcv configs/**/*.json",
     "test": "npm run validate"
