@@ -6,6 +6,7 @@
     ":semanticCommitTypeAll(chore)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
+    ":prHourlyLimit0",
     ":prConcurrentLimit10",
     "github>shinGangan/renovate-config//configs/linters",
     "github>shinGangan/renovate-config//configs/sb"
