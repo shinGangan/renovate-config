@@ -1,0 +1,9 @@
+{
+  "extends": ["packages:eslint", "packages:stylelint"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["globals"],
+      "matchPackagePrefixes": ["prettier"]
+    }
+  ]
+}

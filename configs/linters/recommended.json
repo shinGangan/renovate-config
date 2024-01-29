@@ -1,0 +1,3 @@
+{
+  "extends": ["configs/linters/minor", "configs/linters/patch"]
+}
