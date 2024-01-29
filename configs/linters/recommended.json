@@ -1,3 +1,6 @@
 {
-  "extends": ["configs/linters/minor", "configs/linters/patch"]
+  "extends": [
+    "github>shinGangan/renovate-config//configs/linters/minor",
+    "github>shinGangan/renovate-config//configs/linters/patch"
+  ]
 }
