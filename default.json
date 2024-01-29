@@ -6,9 +6,9 @@
     ":semanticCommitTypeAll(chore)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
-    ":prHourlyLimit0",
     ":prConcurrentLimit10"
   ],
+  "prHourlyLimit": 0,
   "labels": ["🤖 renovate"],
   "enabledManagers": ["npm", "github-actions"]
 }
