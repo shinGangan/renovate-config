@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Markuplint",
+      "groupSlug": "markuplint",
+      "matchPackageNames": ["markuplint"],
+      "matchPackagePrefixes": ["@markuplint"]
+    }
+  ]
+}
