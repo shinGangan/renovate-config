@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Panda CSS",
+      "groupSlug": "panda",
+      "matchPackageNames": ["@wattanx/nuxt-pandacss"],
+      "matchPackagePrefixes": ["@pandacss"]
+    }
+  ]
+}
