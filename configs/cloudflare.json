@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Cloudflare",
+      "groupSlug": "cf",
+      "matchPackageNames": ["wrangler"],
+      "matchPackagePrefixes": ["cloudflare", "@cloudflare"]
+    }
+  ]
+}
