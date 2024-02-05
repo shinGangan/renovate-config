@@ -1,0 +1,16 @@
+{
+  "extends": ["packages:jsUnitTest"],
+  "packageRules": [
+    {
+      "groupName": "Unit Test libraries (using Nuxt Test Utils)",
+      "groupSlug": "unit-tests",
+      "matchPackageNames": [
+        "@nuxt/test-utils",
+        "@vue/test-utils",
+        "happy-dom",
+        "playwright-core",
+        "eslint-config-vitest"
+      ]
+    }
+  ]
+}
