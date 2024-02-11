@@ -7,7 +7,7 @@
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
     ":prConcurrentLimit10",
-    "separateMultipleMajorReleases",
+    ":separateMultipleMajorReleases",
     "schedule:earlyMondays"
   ],
   "prHourlyLimit": 0,
