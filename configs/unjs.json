@@ -1,0 +1,18 @@
+{
+  "packageRules": [
+    {
+      "groupName": "UnJS packages",
+      "groupSlug": "unjs",
+      "matchPackageNames": [
+        "changelogen",
+        "citty",
+        "consola",
+        "jiti",
+        "magicast",
+        "pathe",
+        "unbuild",
+        "eslint-config-unjs",
+      ],
+    }
+  ]
+}
