@@ -3,7 +3,7 @@
     {
       "groupName": "Hono",
       "groupSlug": "hono",
-      "matchPackageNames": ["hono"],
+      "matchPackageNames": ["hono", "honox"],
       "matchPackagePrefixes": ["@hono"]
     }
   ]
