@@ -16,15 +16,6 @@ jobs:
         node-version: [18.x]
     steps:
       - uses: actions/checkout@v4
-      - name: 🗑️ Cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-${{ matrix.node-version }}-
-            ${{ runner.os }}-node-
-            ${{ runner.os }}-
       - name: 🤖 Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
