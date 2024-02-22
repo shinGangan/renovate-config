@@ -7,6 +7,7 @@ Renovate Config for extends
 | configurations | details |
 | :-: | :- |
 | [renovate-config-hono](https://github.com/shinGangan/renovate-config-hono) | 🔥 Hono presets for Renovate |
+| [renovate-config-markuplint](https://github.com/shinGangan/renovate-config-markuplint) | 👥 Markuplint presets for Renovate |
 
 ## License
 
