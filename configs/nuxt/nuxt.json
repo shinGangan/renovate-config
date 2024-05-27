@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Nuxt Official",
+      "groupSlug": "nuxt",
+      "matchSourceUrls": ["https://github.com/nuxt/nuxt"],
+      "matchSourceUrlPrefixes": ["https://github.com/nuxt/"],
+    }
+  ]
+}
