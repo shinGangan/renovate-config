@@ -1,0 +1,18 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Nuxt SEO and related libraries",
+      "groupSlug": "nuxt-seo",
+      "matchPackageNames": [
+        "@nuxt/image",
+        "@nuxtjs/seo",
+        "@nuxtjs/sitemap",
+        "nuxt-og-image",
+        "nuxt-simple-robots",
+        "nuxt-schema-org",
+        "nuxt-seo-experiments",
+        "nuxt-link-checker"
+      ]
+    }
+  ]
+}
