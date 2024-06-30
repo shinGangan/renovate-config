@@ -1,11 +1,14 @@
 {
-  "extends": ["packages:eslint", "packages:stylelint"],
+  "extends": [
+    "packages:linters",
+    ":automergePatch"
+  ],
   "packageRules": [
     {
       "groupName": "Linters",
       "groupSlug": "linters",
-      "matchPackageNames": ["globals"],
-      "matchPackagePrefixes": ["prettier"]
-    }
+      "matchSourceUrls": ["https://github.com/nuxt/eslint"],
+      "matchPackageNames": ["nuxt-modules/stylelint"]      
+    },
   ]
 }
