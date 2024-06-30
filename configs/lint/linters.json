@@ -5,10 +5,28 @@
   ],
   "packageRules": [
     {
-      "groupName": "Linters",
+      "groupName": "Nuxt module package for Linter",
+      "groupSlug": "nuxt-linters",
+      "matchSourceUrls": [
+        "https://github.com/nuxt/eslint"
+      ],
+      "matchPackageNames": [
+        "nuxt-modules/stylelint"
+      ]
+    },
+    {
       "groupSlug": "linters",
-      "matchSourceUrls": ["https://github.com/nuxt/eslint"],
-      "matchPackageNames": ["nuxt-modules/stylelint"]      
+      "matchSourceUrls": [
+        "https://github.com/markuplint/markuplint"
+      ],
+      "matchPackageNames": [
+        "globals",
+        "vue-eslint-parser"
+      ],
+      "matchPackagePrefixes": [
+        "@stylistic/",
+        "markdownlint"
+      ]
     },
   ]
 }
