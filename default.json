@@ -3,11 +3,11 @@
     "config:recommended",
     ":dependencyDashboard",
     ":semanticCommitTypeAll(chore)",
-    ":enableVulnerabilityAlertsWithLabel(security)",
     ":timezone(Asia/Tokyo)",
     ":prConcurrentLimit10",
     ":separateMultipleMajorReleases",
-    "schedule:earlyMondays"
+    "schedule:earlyMondays",
+    ":enableVulnerabilityAlertsWithLabel(security)"
   ],
   "prHourlyLimit": 0,
   "labels": ["🤖 renovate"],
