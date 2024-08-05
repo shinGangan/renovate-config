@@ -1,7 +1,6 @@
 {
   "extends": [
-    "packages:linters",
-    ":automergePatch"
+    "packages:linters"
   ],
   "packageRules": [
     {
@@ -27,6 +26,6 @@
         "@stylistic/",
         "markdownlint"
       ]
-    },
+    }
   ]
 }
