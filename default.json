@@ -9,6 +9,13 @@
     "schedule:earlyMondays",
     ":enableVulnerabilityAlertsWithLabel(security)"
   ],
+  "meteor": {
+    "enabled": false
+  },
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
   "prHourlyLimit": 0,
   "labels": ["🤖 renovate"],
   "enabledManagers": ["npm", "github-actions"]
