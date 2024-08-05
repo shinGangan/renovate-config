@@ -1,6 +1,6 @@
 {
   "name": "@shinGangan/renovate-config",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "description": "presets for Renovate",
   "author": "shinGangan",
   "license": "MIT",
