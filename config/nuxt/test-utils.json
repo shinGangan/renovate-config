@@ -9,7 +9,7 @@
         "@vue/test-utils",
         "happy-dom",
         "playwright-core",
-        "eslint-config-vitest"
+        "@vitest/eslint-plugin"
       ]
     }
   ]
