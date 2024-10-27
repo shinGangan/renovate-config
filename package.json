@@ -16,7 +16,7 @@
     "test": "npm run validate"
   },
   "devDependencies": {
-    "npm-run-all2": "^6.2.6",
+    "npm-run-all2": "^7.0.1",
     "renovate": "latest"
   },
   "packageManager": "pnpm@9.12.2"
