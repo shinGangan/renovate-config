@@ -19,5 +19,5 @@
     "npm-run-all2": "^8.0.4",
     "renovate": "latest"
   },
-  "packageManager": "pnpm@10.12.4"
+  "packageManager": "pnpm@10.13.1"
 }
