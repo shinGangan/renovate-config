@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "groupName": "TypeSpec libraries",
+      "groupSlug": "typespec",
+      "matchSourceUrls": ["https://github.com/microsoft/typespec"],
+    }
+  ]
+}
