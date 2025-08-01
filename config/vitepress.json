@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "groupName": "VitePress and related libraries",
+      "groupSlug": "vitepress",
+      "matchPackageNames": [
+        "vitepress",
+        "vitepress-openapi",
+        "vitepress-plugin-mermaid",
+      ]
+    }
+  ]
+}
