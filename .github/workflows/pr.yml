@@ -17,7 +17,7 @@ jobs:
       number: ${{ github.event.pull_request.number }}
       title: ${{ github.event.pull_request.title }}
       assignee: ${{ github.actor }}
-      milestone: 'v0.3.2'
+      milestone: 'v0.4.0'
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
       repo: ${{ github.repository }}
