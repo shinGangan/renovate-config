@@ -1,0 +1,17 @@
+{
+  "packageRules": [
+    {
+      "groupName": "pytest and related libraries",
+      "groupSlug": "pytest",
+      "matchPackageNames": [
+        "pytest",
+        "pytest-asyncio",
+        "pytest-cov",
+        "pytest-mock",
+        "iniconfig",
+        "packaging",
+        "pluggy"
+      ]
+    }
+  ]
+}
