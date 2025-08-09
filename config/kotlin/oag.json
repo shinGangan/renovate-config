@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "groupName": "OpenAPI Generator gradle plugins",
+      "groupSlug": "oag-gradle",
+      "matchPackageNames": [
+        "org.openapi.generator",
+      ]
+    }
+  ]
+}
