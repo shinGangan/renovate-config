@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "groupName": "JetBrains Official(Kotlin)",
+      "groupSlug": "jetbrains",
+      "matchSourceUrls": ["https://github.com/JetBrains/kotlin/"],
+    },
+  ]
+}
