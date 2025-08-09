@@ -5,12 +5,6 @@
       "groupSlug": "nuxt",
       "matchSourceUrls": ["https://github.com/nuxt/nuxt"],
       "matchSourceUrlPrefixes": ["https://github.com/nuxt/"],
-      "ignoreDeps": ["nuxt"],
     },
-    {
-      "groupName": "Nuxt Framework",
-      "groupSlug": "nuxt-v3",
-      "matchPackageNames": ["nuxt"]
-    }
   ]
 }
