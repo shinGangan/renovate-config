@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Linting gradle plugins",
+      "groupSlug": "ktlint-gradle",
+      "matchPackageNames": [
+        "org.jlleitschuh.gradle.ktlint",
+        "nebula.lint"
+      ]
+    }
+  ]
+}
