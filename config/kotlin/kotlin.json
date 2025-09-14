@@ -4,6 +4,11 @@
       "groupName": "JetBrains Official(Kotlin)",
       "groupSlug": "jetbrains",
       "matchSourceUrls": ["https://github.com/JetBrains/kotlin/"],
+      "matchPackageNames": [
+        "org.jetbrains.kotlin.jvm",
+        "org.jetbrains.kotlin.plugin.jpa",
+        "org.jetbrains.kotlin.plugin.spring"
+      ]
     },
   ]
 }
