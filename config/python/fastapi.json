@@ -1,0 +1,15 @@
+{
+  "packageRules": [
+    {
+      "groupName": "fastapi and related libraries",
+      "groupSlug": "fastapi",
+      "matchPackageNames": [
+        "fastapi",
+        "httpx",
+        "pydantic",
+        "pydantic-settings",
+        "uvicorn"
+      ]
+    }
+  ]
+}
