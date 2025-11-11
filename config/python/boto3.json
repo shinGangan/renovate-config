@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "groupName": "AWS SDK for Python",
+      "groupSlug": "boto3",
+      "matchPackageNames": [
+        "boto3",
+        "aioboto3"
+      ]
+    }
+  ]
+}
