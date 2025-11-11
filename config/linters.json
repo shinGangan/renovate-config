@@ -26,6 +26,12 @@
         "@stylistic/",
         "markdownlint"
       ]
+    },
+    {
+      "groupSlug": "eslint-plugins",
+      "matchPackageNames": [
+        "eslint-plugin-*"
+      ],
     }
   ]
 }
