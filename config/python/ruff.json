@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "groupName": "ruff and related libraries",
+      "groupSlug": "ruff",
+      "matchPackageNames": [
+        "ruff"
+      ]
+    }
+  ]
+}
