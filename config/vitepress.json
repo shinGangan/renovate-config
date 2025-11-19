@@ -7,6 +7,7 @@
         "vitepress",
         "vitepress-openapi",
         "vitepress-plugin-mermaid",
+        "mermaid"
       ]
     }
   ]
