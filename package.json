@@ -4,6 +4,12 @@
   "description": "presets for Renovate",
   "author": "shinGangan",
   "license": "MIT",
+  "private": "true",
+  "engines": {
+    "node": "^24.0.0",
+    "npm": "🚨:Please use pnpm instead.",
+    "yarn": "🚨:Please use pnpm instead."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/shinGangan/renovate-config.git"
@@ -11,9 +17,9 @@
   "scripts": {
     "rcv": "renovate-config-validator",
     "validate": "run-s -c validate:*",
-    "validate:default": "npm run rcv default.json",
-    "validate:configs": "npm run rcv config/*.json config/**/*.json",
-    "test": "npm run validate"
+    "validate:default": "pnpm rcv default.json",
+    "validate:configs": "pnpm rcv config/*.json config/**/*.json",
+    "test": "pnpm validate"
   },
   "devDependencies": {
     "npm-run-all2": "^8.0.4",
