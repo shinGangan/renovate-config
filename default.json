@@ -18,5 +18,14 @@
   },
   "prHourlyLimit": 0,
   "labels": ["🤖 renovate"],
-  "enabledManagers": ["npm", "github-actions"]
+  "enabledManagers": ["npm", "github-actions"],
+  "packageRules": [
+    {
+      "description": "Don't bump engines field in package.json",
+      "matchPackageNames": ["node"],
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["engines"],
+      "rangeStrategy": "auto"
+    }
+  ]
 }
