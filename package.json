@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": "true",
   "engines": {
-    "node": "^24.0.0",
+    "node": "^24.0.2",
     "npm": "🚨:Please use pnpm instead.",
     "yarn": "🚨:Please use pnpm instead."
   },
