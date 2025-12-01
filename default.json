@@ -17,8 +17,16 @@
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
   "prHourlyLimit": 0,
-  "labels": ["🤖 renovate"],
-  "enabledManagers": ["npm", "github-actions"],
+  "labels": ["renovate 🤖"],
+  "enabledManagers": [
+    "npm",
+    "gradle",
+    "gradle-wrapper",
+    "kotlin-script",
+    "pep621",
+    "github-actions",
+    "dockerfile"
+  ],
   "packageRules": [
     {
       "description": "Don't bump engines field in package.json",
