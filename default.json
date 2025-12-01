@@ -23,6 +23,7 @@
     "gradle",
     "gradle-wrapper",
     "kotlin-script",
+    "maven",
     "pep621",
     "github-actions",
     "dockerfile",
