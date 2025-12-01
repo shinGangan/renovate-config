@@ -25,7 +25,9 @@
     "kotlin-script",
     "pep621",
     "github-actions",
-    "dockerfile"
+    "dockerfile",
+    "terraform",
+    "terraform-version"
   ],
   "packageRules": [
     {
