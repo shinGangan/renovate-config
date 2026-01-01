@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "npm-run-all2": "^8.0.4",
-    "renovate": "42.66.14"
+    "renovate": "42.69.2"
   },
   "packageManager": "pnpm@10.27.0"
 }
