@@ -25,5 +25,5 @@
     "npm-run-all2": "^8.0.4",
     "renovate": "42.71.0"
   },
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.28.0"
 }
