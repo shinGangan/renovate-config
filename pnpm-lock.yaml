@@ -12,8 +12,8 @@ importers:
         specifier: ^8.0.4
         version: 8.0.4
       renovate:
-        specifier: 42.92.3
-        version: 42.92.3(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 42.92.4
+        version: 42.92.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -308,12 +308,6 @@ packages:
 
   '@opentelemetry/context-async-hooks@2.4.0':
     resolution: {integrity: sha512-jn0phJ+hU7ZuvaoZE/8/Euw3gvHJrn2yi+kXrymwObEPVPjtwCmkvXDRQCWli+fCTTF/aSOtXaLr7CLIvv3LQg==}
-    engines: {node: ^18.19.0 || >=20.6.0}
-    peerDependencies:
-      '@opentelemetry/api': '>=1.0.0 <1.10.0'
-
-  '@opentelemetry/core@2.3.0':
-    resolution: {integrity: sha512-PcmxJQzs31cfD0R2dE91YGFcLxOSN4Bxz7gez5UwSUjCai8BwH/GI5HchfVshHkWdTkUs0qcaPJgVHKXUp7I3A==}
     engines: {node: ^18.19.0 || >=20.6.0}
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
@@ -1534,11 +1528,6 @@ packages:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
     hasBin: true
 
-  glob@11.1.0:
-    resolution: {integrity: sha512-vuNwKSaKiqm7g0THUBu2x7ckSs3XJLXE+2ssL7/MfTGPLLcrJQ/4Uq1CjPTtO5cCIiRxqvN6Twy1qOwhL0Xjcw==}
-    engines: {node: 20 || >=22}
-    hasBin: true
-
   glob@13.0.0:
     resolution: {integrity: sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==}
     engines: {node: 20 || >=22}
@@ -1789,10 +1778,6 @@ packages:
 
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
-
-  jackspeak@4.1.1:
-    resolution: {integrity: sha512-zptv57P3GpL+O0I7VdMJNBZCu+BPHVQUk55Ft8/QCJjTVxrnJHuVuX/0Bl2A6/+2oyR/ZMEuFKwmzqqZ/U5nPQ==}
-    engines: {node: 20 || >=22}
 
   js-md4@0.3.2:
     resolution: {integrity: sha512-/GDnfQYsltsjRswQhN9fhv3EMw2sCpUdrdxyWDOUK7eyD++r3gRhzgiQgc/x4MAv2i1iuQ4lxO5mvqM3vj4bwA==}
@@ -2534,8 +2519,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.92.3:
-    resolution: {integrity: sha512-ajYAonoDBmMxOFLUKmJa4pOzZG7CVtoU0NAEelM/gR1A9gB8dISbGIYwvcYWtrzUpn6O364nxOIER1ej1QN13w==}
+  renovate@42.92.4:
+    resolution: {integrity: sha512-ACJN2KDZx2TmV36gIRJHCDmZdmvhTM1L6PS6wPJe9SN9IA0ipJIp6+GIo2FgBSspPITzycBH5O513X8z8ySYdg==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3970,11 +3955,6 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
 
-  '@opentelemetry/core@2.3.0(@opentelemetry/api@1.9.0)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/semantic-conventions': 1.39.0
-
   '@opentelemetry/core@2.4.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -4048,21 +4028,21 @@ snapshots:
   '@opentelemetry/resource-detector-aws@2.10.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.3.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.4.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.4.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.39.0
 
   '@opentelemetry/resource-detector-azure@0.18.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.3.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.4.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.4.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.39.0
 
   '@opentelemetry/resource-detector-gcp@0.45.0(@opentelemetry/api@1.9.0)(encoding@0.1.13)':
     dependencies:
       '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 2.3.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/core': 2.4.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 2.4.0(@opentelemetry/api@1.9.0)
       gcp-metadata: 6.1.1(encoding@0.1.13)
     transitivePeerDependencies:
@@ -5405,15 +5385,6 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  glob@11.1.0:
-    dependencies:
-      foreground-child: 3.3.1
-      jackspeak: 4.1.1
-      minimatch: 10.1.1
-      minipass: 7.1.2
-      package-json-from-dist: 1.0.1
-      path-scurry: 2.0.1
-
   glob@13.0.0:
     dependencies:
       minimatch: 10.1.1
@@ -5673,10 +5644,6 @@ snapshots:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
-
-  jackspeak@4.1.1:
-    dependencies:
-      '@isaacs/cliui': 8.0.2
 
   js-md4@0.3.2: {}
 
@@ -6665,7 +6632,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.92.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.92.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
@@ -6732,7 +6699,7 @@ snapshots:
       fs-extra: 11.3.3
       git-url-parse: 16.1.0
       github-url-from-git: 1.5.0
-      glob: 11.1.0
+      glob: 13.0.0
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       google-auth-library: 10.5.0
