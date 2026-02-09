@@ -18,6 +18,7 @@
   },
   "prHourlyLimit": 0,
   "labels": ["renovate 🤖"],
+  "minimumReleaseAge": "5 days",
   "enabledManagers": [
     "npm",
     "gradle",
