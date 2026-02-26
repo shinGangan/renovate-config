@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["pnpm"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    }
+  ]
+}
