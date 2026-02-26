@@ -29,9 +29,7 @@
     },
     {
       "groupSlug": "eslint-plugins",
-      "matchPackageNames": [
-        "eslint-plugin-*"
-      ],
+      "matchPackagePrefixes": ["eslint-plugin-"],
     }
   ]
 }
