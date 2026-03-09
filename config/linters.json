@@ -1,35 +1,17 @@
 {
-  "extends": [
-    "packages:linters"
-  ],
   "packageRules": [
     {
-      "groupName": "Nuxt module package for Linter",
-      "groupSlug": "nuxt-linters",
-      "matchSourceUrls": [
-        "https://github.com/nuxt/eslint"
-      ],
-      "matchPackageNames": [
-        "nuxt-modules/stylelint"
-      ]
-    },
-    {
+      "groupName": "ESLint config and plugin",
       "groupSlug": "linters",
-      "matchSourceUrls": [
-        "https://github.com/markuplint/markuplint"
-      ],
       "matchPackageNames": [
-        "globals",
-        "vue-eslint-parser"
+        "@nuxt/eslint-config",
+        "@intlify/eslint-plugin-vue-i18n",
+        "@vitest/eslint-plugin"
       ],
       "matchPackagePrefixes": [
-        "@stylistic/",
+        "eslint",
         "markdownlint"
       ]
-    },
-    {
-      "groupSlug": "eslint-plugins",
-      "matchPackagePrefixes": ["eslint-plugin-"],
     }
   ]
 }
