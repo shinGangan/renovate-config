@@ -4,6 +4,7 @@
     "github>shinGangan/renovate-config",
     ":automergePatch"
   ],
+  "assignAutomerge": true,
   "reviewers": ["shinGangan"],
   "milestone": 5
 }
