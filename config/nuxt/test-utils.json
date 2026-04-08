@@ -2,9 +2,10 @@
   "extends": ["packages:jsUnitTest"],
   "packageRules": [
     {
-      "groupName": "Unit Test libraries (using Nuxt Test Utils)",
+      "groupName": "Testing libraries",
       "groupSlug": "unit-tests",
       "matchPackageNames": [
+        "vitest",
         "@nuxt/test-utils",
         "@vue/test-utils",
         "happy-dom",
