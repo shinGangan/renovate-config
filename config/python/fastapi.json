@@ -8,7 +8,8 @@
         "httpx",
         "pydantic",
         "pydantic-settings",
-        "uvicorn"
+        "uvicorn",
+        "python-multipart"
       ]
     }
   ]
