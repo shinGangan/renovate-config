@@ -29,7 +29,8 @@
     "github-actions",
     "dockerfile",
     "terraform",
-    "terraform-version"
+    "terraform-version",
+    "mise"
   ],
   "packageRules": [
     {
