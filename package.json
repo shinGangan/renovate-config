@@ -22,7 +22,7 @@
     "test": "pnpm validate"
   },
   "devDependencies": {
-    "npm-run-all2": "^8.0.4",
+    "npm-run-all2": "^9.0.3",
     "renovate": "44.32.6"
   },
   "packageManager": "pnpm@11.22.0"
